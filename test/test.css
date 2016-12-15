@@ -47,7 +47,7 @@
 }
 
 .test-webkit-sassui-hairline-1:after {
-  background: #c8c7cc;
+  background: #f60;
 }
 
 .test-webkit-sassui-hairline-2 {
@@ -56,7 +56,7 @@
 }
 
 .test-webkit-sassui-hairline-2:after {
-  background: #c8c7cc;
+  background: #0F0;
   left: auto;
   right: 0;
 }
