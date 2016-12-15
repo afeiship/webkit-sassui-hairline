@@ -36,19 +36,15 @@
 }
 
 @mixin webkit-sassui-hairline($inPostion:'top',$inColor:#c8c7cc){
-
   $direction:'';
-
   @if $inPostion=='left' or $inPostion=='right' {
     $direction: 'y';
   }
-
   @if $inPostion=='top' or $inPostion=='bottom' {
     $direction: 'x';
   }
 
   @extend .hairline,.hairline-#{$direction};
-
   &:after{
     background: $inColor;
     @if $inPostion=='right'{
