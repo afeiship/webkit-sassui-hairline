@@ -1,9 +1,9 @@
 /*webkit-sassui-hairline Start*/
-.hairline, .test-webkit-sassui-hairline-1, .test-webkit-sassui-hairline-2, .test-webkit-sassui-hairline-3 {
+.hairline, .test-webkit-sassui-hairline-1, .test-webkit-sassui-hairline-2, .test-webkit-sassui-hairline-3, .test-webkit-sassui-hairline-4 {
   position: relative;
 }
 
-.hairline:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-3:after {
+.hairline:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-3:after, .test-webkit-sassui-hairline-4:after {
   content: '';
   position: absolute;
   left: 0;
@@ -14,7 +14,7 @@
   display: block;
 }
 
-.hairline-x:after, .test-webkit-sassui-hairline-1:after {
+.hairline-x:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-3:after {
   height: 1px;
   width: 100%;
   display: block;
@@ -23,7 +23,7 @@
   transform: scaleY(0.5);
 }
 
-.hairline-y:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-3:after {
+.hairline-y:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-4:after {
   width: 1px;
   height: 100%;
   display: block;
@@ -47,20 +47,34 @@
 }
 
 .test-webkit-sassui-hairline-2 {
-  height: 100px;
-  border-right: 1px solid #c8c7cc;
+  height: 50px;
+  border-left: 1px solid #c8c7cc;
 }
 
 .test-webkit-sassui-hairline-2:after {
   background: #c8c7cc;
+  left: auto;
+  right: 0;
 }
 
 .test-webkit-sassui-hairline-3 {
-  border-right: 1px solid #F00;
+  height: 50px;
+  border-top: 1px solid #F00;
 }
 
 .test-webkit-sassui-hairline-3:after {
   background: #F00;
+  top: auto;
+  bottom: 0;
+}
+
+.test-webkit-sassui-hairline-4 {
+  height: 50px;
+  border-right: 1px solid #F00;
+}
+
+.test-webkit-sassui-hairline-4:after {
+  background: #00F;
 }
 
 .blank20 {

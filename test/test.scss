@@ -4,20 +4,26 @@
 }
 .test-webkit-sassui-hairline-1{
   height:50px;
-  @include webkit-sassui-hairline('x');
+  @include webkit-sassui-hairline('top');
   border-bottom: 1px solid #c8c7cc;;
 }
 
 
 .test-webkit-sassui-hairline-2{
-  @include webkit-sassui-hairline('y');
-  height:100px;
-  border-right: 1px solid #c8c7cc;;
+  @include webkit-sassui-hairline('right');
+  height:50px;
+  border-left: 1px solid #c8c7cc;;
 }
 
 
 .test-webkit-sassui-hairline-3{
-  @include webkit-sassui-hairline('y',#F00);
+  height:50px;
+  @include webkit-sassui-hairline('bottom',#F00);
+  border-top: 1px solid #F00;
+}
+.test-webkit-sassui-hairline-4{
+  height:50px;
+  @include webkit-sassui-hairline('left',#00F);
   border-right: 1px solid #F00;;
 }
 
