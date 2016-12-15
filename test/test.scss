@@ -1,6 +1,9 @@
 @import "../dist/webkit-sassui-hairline.scss";
 .container{
   padding: 20px;
+  h2{
+    margin-top:0;
+  }
 }
 .test-webkit-sassui-hairline-1{
   height:50px;

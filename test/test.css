@@ -37,6 +37,10 @@
   padding: 20px;
 }
 
+.container h2 {
+  margin-top: 0;
+}
+
 .test-webkit-sassui-hairline-1 {
   height: 50px;
   border-bottom: 1px solid #c8c7cc;
