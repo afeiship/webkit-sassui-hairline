@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-hairline",
+  "description": "webkit sass ui module for hairline(1px line).",
+  "main": [
+    "dist/webkit-sassui-hairline.css",
+    "dist/webkit-sassui-hairline.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "hairline"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

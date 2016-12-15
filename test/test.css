@@ -1,0 +1,68 @@
+/*webkit-sassui-hairline Start*/
+.hairline, .test-webkit-sassui-hairline-1, .test-webkit-sassui-hairline-2, .test-webkit-sassui-hairline-3 {
+  position: relative;
+}
+
+.hairline:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-3:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: auto;
+  right: auto;
+  z-index: 3;
+  display: block;
+}
+
+.hairline-x:after, .test-webkit-sassui-hairline-1:after {
+  height: 1px;
+  width: 100%;
+  display: block;
+  z-index: 15;
+  transform-origin: 50% 0;
+  transform: scaleY(0.5);
+}
+
+.hairline-y:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-3:after {
+  width: 1px;
+  height: 100%;
+  display: block;
+  z-index: 15;
+  transform-origin: 0 50%;
+  transform: scaleX(0.5);
+}
+
+/*webkit-sassui-hairline End*/
+.container {
+  padding: 50px;
+}
+
+.test-webkit-sassui-hairline-1 {
+  height: 50px;
+  border-bottom: 1px solid #c8c7cc;
+}
+
+.test-webkit-sassui-hairline-1:after {
+  background: #c8c7cc;
+}
+
+.test-webkit-sassui-hairline-2 {
+  height: 100px;
+  border-right: 1px solid #c8c7cc;
+}
+
+.test-webkit-sassui-hairline-2:after {
+  background: #c8c7cc;
+}
+
+.test-webkit-sassui-hairline-3 {
+  border-right: 1px solid #F00;
+}
+
+.test-webkit-sassui-hairline-3:after {
+  background: #F00;
+}
+
+.blank20 {
+  height: 20px;
+}
