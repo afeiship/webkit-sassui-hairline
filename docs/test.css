@@ -1,9 +1,9 @@
 /*webkit-sassui-hairline Start*/
-.hairline, .test-webkit-sassui-hairline-1, .test-webkit-sassui-hairline-2, .test-webkit-sassui-hairline-3, .test-webkit-sassui-hairline-4 {
+.webkit-sassui-hairline, .test-webkit-sassui-hairline-1, .test-webkit-sassui-hairline-2, .test-webkit-sassui-hairline-3, .test-webkit-sassui-hairline-4 {
   position: relative;
 }
 
-.hairline:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-3:after, .test-webkit-sassui-hairline-4:after {
+.webkit-sassui-hairline:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-3:after, .test-webkit-sassui-hairline-4:after {
   content: '';
   position: absolute;
   left: 0;
@@ -14,7 +14,7 @@
   display: block;
 }
 
-.hairline-x:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-3:after {
+.webkit-sassui-hairline-x:after, .test-webkit-sassui-hairline-1:after, .test-webkit-sassui-hairline-3:after {
   height: 1px;
   width: 100%;
   display: block;
@@ -23,7 +23,7 @@
   transform: scaleY(0.5);
 }
 
-.hairline-y:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-4:after {
+.webkit-sassui-hairline-y:after, .test-webkit-sassui-hairline-2:after, .test-webkit-sassui-hairline-4:after {
   width: 1px;
   height: 100%;
   display: block;

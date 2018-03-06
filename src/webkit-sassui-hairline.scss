@@ -1,5 +1,5 @@
 /*webkit-sassui-hairline Start*/
-.hairline{
+.webkit-sassui-hairline{
   position: relative;
   &:after{
     content: '';
@@ -13,7 +13,7 @@
   }
 }
 
-.hairline-x{
+.webkit-sassui-hairline-x{
   &:after{
     height: 1px;
     width: 100%;
@@ -24,7 +24,7 @@
   }
 }
 
-.hairline-y{
+.webkit-sassui-hairline-y{
   &:after{
     width: 1px;
     height: 100%;
@@ -44,7 +44,7 @@
     $direction: 'x';
   }
 
-  @extend .hairline,.hairline-#{$direction};
+  @extend .webkit-sassui-hairline,.webkit-sassui-hairline-#{$direction};
   &:after{
     background: $inColor;
     @if $inPostion=='right'{
